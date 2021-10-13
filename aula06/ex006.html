@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Brincando...</title>
+    <style>
+      body {
+        background-color: lightblue;
+        color: black;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Brincando com JS</h1>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti odit
+      illum autem quisquam sunt dolores, reiciendis delectus assumenda commodi
+      voluptatum repellendus natus dolore sit velit eveniet officiis porro
+      quidem. Suscipit?
+    </p>
+    <script>
+      window.document.getElementsByTagName("p")[0].style.color = "grey";
+      var nome = window.prompt("Digita teu nome aí, parça");
+      var num = Number(window.prompt("Diz um número aí chefia")); //para não retornar uma string usar o Number
+      window.document.write(
+        `Parça, teu nome é ${nome}. O teu nome tem ${nome.length} letras </br>`
+      );
+      window.document.write(
+        `Minha autarquia, o número que você digitou foi ${num} </br>`
+      );
+      window.document.write(`O número ${num} dividido por 5 é ${num / 5}</br>`);
+      window.document.write(
+        `O número ${num} multiplicado por 5 é ${num * 5}</br>`
+      );
+      window.document.write(`O número ${num} menos 5 é ${num - 5}</br>`);
+      window.document.write(`O número ${num} somado a 5 é ${num + 5}</br>`);
+      var par =
+        num >= 10
+          ? "Este número é maior que ou igual a 10</br>"
+          : "Este número é menor que 10</br>";
+      window.document.write(par);
+    </script>
+  </body>
+</html>
