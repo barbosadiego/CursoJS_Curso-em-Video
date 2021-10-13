@@ -23,14 +23,12 @@
     </p>
     <script>
       window.document.getElementsByTagName("p")[0].style.color = "grey";
-      var nome = window.prompt("Digita teu nome aí, parça");
-      var num = Number(window.prompt("Diz um número aí chefia")); //para não retornar uma string usar o Number
+      var nome = window.prompt("Digite seu nome");
+      var num = Number(window.prompt("Digite um número")); //para não retornar uma string usar o Number
       window.document.write(
-        `Parça, teu nome é ${nome}. O teu nome tem ${nome.length} letras </br>`
+        `Seu nome é ${nome}. O teu nome tem ${nome.length} letras </br>`
       );
-      window.document.write(
-        `Minha autarquia, o número que você digitou foi ${num} </br>`
-      );
+      window.document.write(`O número que você digitou foi ${num} </br>`);
       window.document.write(`O número ${num} dividido por 5 é ${num / 5}</br>`);
       window.document.write(
         `O número ${num} multiplicado por 5 é ${num * 5}</br>`
