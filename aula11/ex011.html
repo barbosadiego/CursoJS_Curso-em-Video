@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nacionalidade</title>
+  <style>
+    body{
+      background-color: tomato;
+      font: normal 20px segoe ui;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+    }
+    
+  </style>
+</head>
+<body>
+  <h1>Definindo gentíloco</h1>
+  <p>Insira abaixo a o seu país de nascimento</p>
+  <input type="text" name="pais" id="pais">
+  <input type="button" value="Enviar" id="btn" onclick="gentilico()">
+  <div id="res"></div>
+  <script>
+    function gentilico(){
+      var pais = document.getElementById('pais')
+      var res = document.getElementById('res')
+      var nasc = pais.value
+      if (nasc == 'Brasil'){
+        res.innerHTML = `Você é <strong>Brasileiro</strong>`
+      } else {
+        res.innerHTML = `Você é <strong>estrangeiro</strong>`
+      }
+    }
+  </script>
+</body>
+</html>
