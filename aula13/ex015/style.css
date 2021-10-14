@@ -10,6 +10,12 @@ a{
   color: white;
 }
 
+img{
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+}
+
 header{
   color: white;
   text-align: center;
