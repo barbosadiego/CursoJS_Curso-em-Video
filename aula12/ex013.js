@@ -36,4 +36,4 @@ switch (diaSemana){
   default:
   console.log('[ERRO] Dia Inválido')
   break
-}
+} 
