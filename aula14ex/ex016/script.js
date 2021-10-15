@@ -13,8 +13,7 @@ function contar() {
     res.innerHTML = ("[ERRO] informe passo válido!");
   } else {
     do{
-      d = a + c
-      res.innerHTML = `${d}`
+      
     } while (a<b)
   }
 }
