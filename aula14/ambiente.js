@@ -1,7 +1,9 @@
 // programa para mostar 'c' usando estrutura de repetição com variável de controle
-for(c=1;c<=5;c++){
-  console.log(c)
+console.log('VAI COMEÇAR...')
+for (c = 1; c <= 5; c++) {
+  console.log(c);
 }
+console.log('FIM!')
 
 /* programa para mostar 'c' com teste log. no início
 var c = 1
