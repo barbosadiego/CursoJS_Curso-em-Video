@@ -5,15 +5,17 @@ function contar() {
   var a = Number(ini.value);
   var b = Number(fim.value);
   var c = Number(passo.value);
-  var d = 0
+  var d = 0;
   var res = document.querySelector("div#res");
   if (ini.value.length == 0) {
-    res.innerHTML = ("[ERRO] impossível contar sem início!&#X1F449");
+    res.innerHTML = "[ERRO] impossível contar sem início!";
   } else if (Number(passo.value) <= 0 || passo.value.length == 0) {
-    res.innerHTML = ("[ERRO] informe passo válido!");
+    res.innerHTML = "[ERRO] informe passo válido!";
   } else {
-    do{
-      
-    } while (a<b)
+    do {
+      a + c;
+      res.innerHTML += `${a} &#X1F449`;
+    } while (a <= b);
   }
+  res.innerHTML += "&#X1F3C1";
 }
