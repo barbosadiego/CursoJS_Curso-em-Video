@@ -11,8 +11,8 @@ function contar() {
   } else if (Number(passo.value) <= 0 || passo.value.length == 0) {
     res.innerHTML = "[ERRO] informe passo válido!";
   } else {
-    res.innerHTML = `${a} &#X1F449`
-    for (var cont = 0; a < b; cont++) {
+    res.innerHTML = `${a} &#X1F449`;
+    for (var cont = 0; a < b - 1; cont++) {
       a += c;
       res.innerHTML += `${a} &#X1F449`;
     }
