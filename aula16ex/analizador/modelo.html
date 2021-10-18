@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Analizador de número</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Analizador de Número</h1>
+  </header>
+  <section>
+    <div>
+      <p>
+        Número (entre 1 e 100:) <input type="number" name="num" id="num"> <button onclick="adicionar()">Adicionar</button>
+      </p>
+      <select name="sel" id="sel" size="10" style="width: 150px;"></select>
+    </div>
+    <input type="button" value="Finalizar" onclick="finalizar()">
+    <div id="res">
+    </div>
+  </section>
+  <footer>
+    &copy; <a href="https://www.diegobarbosa.net" target="_blank">Diego Barbosa 2021</a>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
