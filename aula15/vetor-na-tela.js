@@ -1,4 +1,4 @@
-let valores = [8,1,7,4,2,9]
+let valores = [8,1,7,4,2,9] 
 valores.sort()
 
 //forma mais simples nas versões mais recentes da ECMAScript
