@@ -1,3 +1,10 @@
+
+
+
+
+
+/*
+código antes da correção
 function adicionar() {
   var num = document.getElementById("num");
   var n = [Number(num.value)];
@@ -15,9 +22,10 @@ function adicionar() {
   }
 
   function finalizar() {
-    var res = getElementById("res");
+    var res = document.getElementById("res");
     var p = document.createElement("p");
     p.innerHTML = `Ao todo temos ${n.length} número cadastrados`;
     res.appendChild(p);
   }
 }
+*/
