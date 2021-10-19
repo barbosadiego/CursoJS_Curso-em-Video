@@ -25,7 +25,7 @@ function adicionar() {
   if (isNumero(num.value) && !inLista(num.value, valores)) {
     //se estiver no escopo e não repetir na lista
     valores.push(Number(num.value));
-    //valores = Number(num.value)
+    //valores = Number(num.value) código errado
     var opt = document.createElement("option");
     opt.textContent = `Valor ${num.value} adicionado`; //não precisa converter pois a lista é string
     lista.appendChild(opt);
